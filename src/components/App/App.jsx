@@ -18,7 +18,7 @@ export const App = () => {
   }, [contacts]);
 
   const handleInputChange = e => {
-    setFilter(e.target.trim());
+    setFilter(e.target.value.trim());
   };
 
   const addContact = data => {
